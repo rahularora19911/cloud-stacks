@@ -23,6 +23,7 @@ module "backend_v3" {
   lb_method               = "${var.lb_method}"
   lb_pool_name            = "${var.lb_pool_name}"
   lb_vip_name             = "${var.lb_vip_name}"
+  lb_provider             = "${var.lb_provider}"
 }
 
 module "security_group_ssh_icmp" {
